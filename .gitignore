@@ -16,3 +16,4 @@ Thumbs.db
 /*.bundle
 /RECOVERY-NOTES.md
 /PREPARE-REPORT.md
+build/
