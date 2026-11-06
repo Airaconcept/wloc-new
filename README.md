@@ -13,15 +13,15 @@
 <!-- subscriptions:start -->
 | 客户端 | 订阅地址 |
 | --- | --- |
-| Surge / Egern | [https://raw.githubusercontent.com/shijianji/wloc-new/refs/heads/main/modules/wloc.sgmodule](https://raw.githubusercontent.com/shijianji/wloc-new/refs/heads/main/modules/wloc.sgmodule) |
-| Quantumult X | [https://raw.githubusercontent.com/shijianji/wloc-new/refs/heads/main/modules/wloc.conf](https://raw.githubusercontent.com/shijianji/wloc-new/refs/heads/main/modules/wloc.conf) |
-| Loon | [https://raw.githubusercontent.com/shijianji/wloc-new/refs/heads/main/modules/wloc.lpx](https://raw.githubusercontent.com/shijianji/wloc-new/refs/heads/main/modules/wloc.lpx) |
-| Stash | [https://raw.githubusercontent.com/shijianji/wloc-new/refs/heads/main/modules/wloc.stoverride](https://raw.githubusercontent.com/shijianji/wloc-new/refs/heads/main/modules/wloc.stoverride) |
-| Shadowrocket | [https://raw.githubusercontent.com/shijianji/wloc-new/refs/heads/main/modules/wloc.module](https://raw.githubusercontent.com/shijianji/wloc-new/refs/heads/main/modules/wloc.module) |
+| Surge / Egern | [https://raw.githubusercontent.com/Airaconcept/wloc-new/refs/heads/main/modules/wloc.sgmodule](https://raw.githubusercontent.com/Airaconcept/wloc-new/refs/heads/main/modules/wloc.sgmodule) |
+| Quantumult X | [https://raw.githubusercontent.com/Airaconcept/wloc-new/refs/heads/main/modules/wloc.conf](https://raw.githubusercontent.com/Airaconcept/wloc-new/refs/heads/main/modules/wloc.conf) |
+| Loon | [https://raw.githubusercontent.com/Airaconcept/wloc-new/refs/heads/main/modules/wloc.lpx](https://raw.githubusercontent.com/Airaconcept/wloc-new/refs/heads/main/modules/wloc.lpx) |
+| Stash | [https://raw.githubusercontent.com/Airaconcept/wloc-new/refs/heads/main/modules/wloc.stoverride](https://raw.githubusercontent.com/Airaconcept/wloc-new/refs/heads/main/modules/wloc.stoverride) |
+| Shadowrocket | [https://raw.githubusercontent.com/Airaconcept/wloc-new/refs/heads/main/modules/wloc.module](https://raw.githubusercontent.com/Airaconcept/wloc-new/refs/heads/main/modules/wloc.module) |
 
-选点页面：[https://wloc.333012.xyz/](https://wloc.333012.xyz/)。
+选点页面：[https://wloc.erebus.kdns.fr/](https://wloc.erebus.kdns.fr/)。
 
-[浏览源码](https://github.com/xepes0/wloc) · [部署到 Cloudflare Workers](https://deploy.workers.cloudflare.com/?url=https://github.com/xepes0/wloc/tree/main/worker)
+[浏览源码](https://github.com/Airaconcept/wloc-new) · [部署到 Cloudflare Workers](https://deploy.workers.cloudflare.com/?url=https://github.com/Airaconcept/wloc-new/tree/main/worker)
 <!-- subscriptions:end -->
 
 Egern 沿用上游 Surge 模块兼容说明，尚未单独复核。Stash 使用原生 `.stoverride`。
@@ -41,7 +41,7 @@ Egern 沿用上游 Surge 模块兼容说明，尚未单独复核。Stash 使用�
 2. 在苹果地图长按选点 → 共享 → 选择「wloc 设置地理位置」；高德地图可通过「分享 → 更多」进入分享菜单。
 3. 运行后打开地图验证结果。需要恢复时，运行「wloc 清理恢复位置」。若模块参数另设了坐标，还需关闭模块或恢复默认参数。
 
-> 设置位置指令基于原作者版本，由维护者将解析地址更新为 `https://wloc.333012.xyz/api/parse` 并重新分享；恢复位置指令仍为原作者分享。已安装的旧指令不会自动更新，请备份后安装新版或手动替换解析地址。尚未独立复核新版指令的真机运行结果。具体操作见[快捷指令迁移说明](docs/shortcut-guide.md#快捷指令)。
+> 设置位置指令基于原作者版本，由维护者将解析地址更新为 `https://wloc.erebus.kdns.fr/api/parse` 并重新分享；恢复位置指令仍为原作者分享。已安装的旧指令不会自动更新，请备份后安装新版或手动替换解析地址。尚未独立复核新版指令的真机运行结果。具体操作见[快捷指令迁移说明](docs/shortcut-guide.md#快捷指令)。
 
 ## 使用方法
 
